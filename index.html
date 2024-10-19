@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            position: relative;
+        }
+      .cantainer {
+        /* position: relative; */
+        margin: auto;
+        width: 80vw;
+        height: 80vh;
+        /* border: 2px solid black; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+      }
+      .items {
+        position: relative;
+        font-family:'Segoe UI',DM-sans,sans-serif;
+        margin: 20px;
+
+      }
+      .items span{
+        background-color: #8080802e;
+        font-size: 16px;
+        padding: 20px;
+        border-radius: 10px;
+        font-family:'Segoe UI',DM-sans,sans-serif;
+      }
+      .items h1{
+        margin: 0;
+      }
+      span::first-letter{
+        text-transform: uppercase;
+        /* font-size: 20px; */
+      }
+      /* .item2{
+             display: flex;
+             flex-direction: column;
+             justify-content:space-around;
+             align-items:self-start;
+      } */
+      .item2 p{
+        /* text-align: center; */
+        text-wrap: wrap;
+      }
+      .img{
+        position: absolute;
+        /* right: 10px; */
+        left: 1300px;
+        height: 100px;
+        /* bottom: 10px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cantainer">
+      <div class="items">
+        <img
+          src="Guvi.png"alt=""
+        />
+      </div>
+      <div class="items item2">
+        <h1>Leading EdTech Platform for</h1>
+        <h1 style="color: #0dba4b; font-size: 36px">Vernacular Upskilling</h1>
+        <p style="color: gray; font-size: 18px">
+          GUVI – India’s premier tech-powered vernacular EdTech platform,
+          incubated by IIT-M, IIM-A, and a prestigious part of the HCL group,
+          leads the way in tech upskilling with instruction in regional and
+          international languages. With over 3 million global learners, GUVI
+          focuses on providing personalized learning solutions for its learners
+          right from online learning, upskilling, and recruitment opportunities
+          in world-class quality.
+        </p>
+        <span><span style="color: #0dba4b; font-weight: bold; font-size: 20px;">GUVI</span> - Grab Ur Vernacular Imprint</span>
+      </div>
+    </div>
+    <img src="https://prod-chateleon-mascots-pz.b-cdn.net/77158b9d-2cfd-42eb-b5d6-c8a20f344e5d.gif?token=YPZH5qBl4cjxpAIJmWvLEUpFaf-y7QUB_x7yjwfhl0o&expires=1729916100" alt="" class="img">
+  </body>
+</html>
